@@ -1,0 +1,38 @@
+{
+  "name": "exovon-cli",
+  "version": "1.4.2",
+  "description": "The official command-line interface for the Exovon Cloud Platform",
+  "main": "bin/exovon.js",
+  "bin": {
+    "exovon": "bin/exovon.js",
+    "exovon-cli": "bin/exovon.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "exovon": "^1.4.2"
+  },
+  "keywords": [
+    "exovon",
+    "exovon-cli",
+    "cli",
+    "cloud",
+    "deploy"
+  ],
+  "author": "Exovon Technologies",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exovon-Cloud/exovon.git",
+    "directory": "packages/exovon-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/Exovon-Cloud/exovon/issues"
+  },
+  "homepage": "https://exovon.in"
+}

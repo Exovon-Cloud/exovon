@@ -1,0 +1,18 @@
+{
+  "name": "exovon",
+  "displayName": "Exovon",
+  "version": "1.0.0",
+  "description": "Deploy applications to Exovon Edge and Mumbai compute, manage ExoStore PostgreSQL, and stream build logs.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Deploy this project to Exovon and show the live deployment URL",
+    "Inspect the build logs and runtime health of my latest deployment",
+    "Run a query on my Exovon ExoStore PostgreSQL database"
+  ],
+  "author": {
+    "name": "Exovon Technologies",
+    "url": "https://exovon.in"
+  },
+  "homepage": "https://exovon.in",
+  "repository": "https://github.com/Exovon-Cloud/exovon"
+}

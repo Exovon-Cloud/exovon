@@ -1,0 +1,40 @@
+{
+  "name": "exovon",
+  "version": "1.4.3",
+  "description": "Official CLI and developer toolkit for Exovon Cloud Platform",
+  "main": "index.js",
+  "bin": {
+    "exovon": "bin/exovon.js"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@exovon/sdk": "^1.4.3"
+  },
+  "keywords": [
+    "exovon",
+    "cli",
+    "cloud",
+    "hosting",
+    "deploy",
+    "serverless",
+    "nextjs",
+    "edge"
+  ],
+  "author": "Exovon Technologies",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exovon-Cloud/exovon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Exovon-Cloud/exovon/issues"
+  },
+  "homepage": "https://exovon.in"
+}

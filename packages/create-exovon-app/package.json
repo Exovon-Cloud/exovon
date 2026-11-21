@@ -1,0 +1,29 @@
+{
+  "name": "create-exovon-app",
+  "version": "1.4.2",
+  "description": "Scaffold and launch a production-ready application on Exovon",
+  "main": "bin/create-exovon-app.js",
+  "bin": {
+    "create-exovon-app": "bin/create-exovon-app.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "exovon": "^1.4.2"
+  },
+  "keywords": [
+    "exovon",
+    "create-app",
+    "starter",
+    "cloud",
+    "nextjs",
+    "deploy"
+  ],
+  "author": "Exovon Technologies",
+  "license": "Apache-2.0"
+}

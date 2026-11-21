@@ -1,0 +1,69 @@
+{
+  "name": "@exovon/sdk",
+  "version": "1.4.3",
+  "description": "The official TypeScript SDK for the Exovon Infrastructure Ecosystem",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./auth": {
+      "types": "./dist/auth/index.d.ts",
+      "default": "./dist/auth/index.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "default": "./dist/react/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "exovon": "bin/exovon.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "exovon",
+    "cloud",
+    "infrastructure",
+    "sdk",
+    "auth",
+    "api",
+    "speed-insights",
+    "web-vitals"
+  ],
+  "author": "Exovon Technologies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exovon-Cloud/exovon.git",
+    "directory": "packages/exovon-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/Exovon-Cloud/exovon/issues"
+  },
+  "homepage": "https://exovon.in",
+  "devDependencies": {
+    "@types/archiver": "^8.0.0",
+    "@types/react": "^19.2.17",
+    "react": "^19.2.7",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "better-auth": "^1.7.6",
+    "web-vitals": "^6.1.0"
+  }
+}

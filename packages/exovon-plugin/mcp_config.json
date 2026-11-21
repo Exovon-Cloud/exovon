@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "exovon": {
+      "command": "npx",
+      "args": ["-y", "@exovon/mcp-server@1.4.2"]
+    }
+  }
+}

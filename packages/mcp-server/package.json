@@ -1,0 +1,40 @@
+{
+  "name": "@exovon/mcp-server",
+  "version": "1.4.2",
+  "description": "Official Model Context Protocol (MCP) server for the Exovon Cloud Platform",
+  "main": "bin/mcp-server.js",
+  "bin": {
+    "exovon-mcp-server": "bin/mcp-server.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@exovon/sdk": "^1.4.2",
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "keywords": [
+    "exovon",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "cursor",
+    "claude",
+    "antigravity"
+  ],
+  "author": "Exovon Technologies",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exovon-Cloud/exovon.git",
+    "directory": "packages/mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/Exovon-Cloud/exovon/issues"
+  },
+  "homepage": "https://exovon.in"
+}
